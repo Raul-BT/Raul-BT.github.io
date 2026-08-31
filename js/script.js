@@ -157,3 +157,22 @@ document.addEventListener("keydown", (event) => {
         closeProjectModal();
     }
 });
+
+
+// Email Button
+
+const copyEmailButton = document.querySelector("#copy-email");
+const emailAddress = document.querySelector("#email-address");
+
+if (copyEmailButton && emailAddress) {
+    copyEmailButton.addEventListener("click", async () => {
+        await navigator.clipboard.writeText(emailAddress.textContent);
+
+        const originalText = copyEmailButton.textContent;
+        copyEmailButton.textContent = "Copied!";
+
+        setTimeout(() => {
+            copyEmailButton.textContent = originalText;
+        }, 1500);
+    });
+}
