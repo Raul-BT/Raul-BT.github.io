@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Raul Benítez - Game Development student portfolio.">
+    <title>Raul Benítez | Game Development</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar container" aria-label="Main navigation">
+            <a class="brand" href="#home">RAUL<span>.</span></a>
+            <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <p class="eyebrow">GAME DEVELOPMENT STUDENT</p>
+                <h1>Hi, I'm <span>Raul.</span></h1>
+                <p class="hero-subtitle">I enjoy building games, solving programming problems, and exploring artificial intelligence and software engineering.</p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#projects">View Projects</a>
+                    <a class="button button-secondary" href="https://github.com/Raul-BT" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+            </div>
+            <div class="hero-grid" aria-hidden="true"></div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container split-layout">
+                <div>
+                    <p class="section-label">01 / ABOUT</p>
+                    <h2>Building things with code.</h2>
+                </div>
+                <div class="section-copy">
+                    <p>I'm a Game Development student at Rey Juan Carlos University in Madrid, Spain. I'm particularly interested in game development, artificial intelligence, gameplay systems, and software engineering.</p>
+                    <p>Outside programming, I enjoy boxing, music, anime, movies, and TV series.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section section-projects">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="section-label">02 / PROJECTS</p>
+                    <h2>Selected work.</h2>
+                    <p>University projects and personal work that showcase different areas of game development.</p>
+                </div>
+                <div class="projects-grid">
+                    <article class="project-card"
+                             data-project="pathfinding"
+                             tabindex="0"
+                             role="button"
+                             aria-label="Open Game AI - Pathfinding demo">
+                        <div class="project-visual project-ai"><span>A*</span></div>
+                        <div class="project-body">
+                            <div class="project-meta"><span>GAME AI</span><span>UNITY · C#</span></div>
+                            <h3>Game AI — Pathfinding</h3>
+                            <p>Autonomous navigation using A*, Online Horizon Search, heuristics, and a hybrid approach for static and dynamic objectives.</p>
+                            <a class="project-link" href="https://github.com/Raul-BT/game-ai-pathfinding" target="_blank" rel="noopener noreferrer">View project <span>↗</span></a>
+                        </div>
+                    </article>
+
+                    <article class="project-card"
+                             data-project="qlearning"
+                             tabindex="0"
+                             role="button"
+                             aria-label="Open Q-Learning Agent demo">
+                        <div class="project-visual project-q"><span>Q</span></div>
+                        <div class="project-body">
+                            <div class="project-meta"><span>REINFORCEMENT LEARNING</span><span>UNITY · C#</span></div>
+                            <h3>Q-Learning Agent</h3>
+                            <p>A reinforcement learning project using a Q-table, ε-greedy exploration, state modelling, and reward design.</p>
+                            <a class="project-link" href="https://github.com/Raul-BT/game-ai-qlearning" target="_blank" rel="noopener noreferrer">View project <span>↗</span></a>
+                        </div>
+                    </article>
+
+                    <article class="project-card project-featured"
+                             data-project="multiplayer"
+                             tabindex="0"
+                             role="button"
+                             aria-label="Open JavaScript Multiplayer Game demo">
+                        <div class="project-visual project-network"><span>WS</span></div>
+                        <div class="project-body">
+                            <div class="project-meta"><span>MULTIPLAYER</span><span>JS · NODE · WEBSOCKETS</span></div>
+                            <h3>JavaScript Multiplayer Game</h3>
+                            <p>Two-player Bomberman-style game with local and online multiplayer, matchmaking, rooms, and a client-server architecture.</p>
+                            <a class="project-link" href="https://github.com/Raul-BT/javascript-websocket-multiplayer-game" target="_blank" rel="noopener noreferrer">View project <span>↗</span></a>
+                        </div>
+                    </article>
+
+                    <article class="project-card"
+                             data-project="mips"
+                             tabindex="0"
+                             role="button"
+                             aria-label="Open Retro Pong demo">
+                        <div class="project-visual project-mips"><span>MIPS</span></div>
+                        <div class="project-body">
+                            <div class="project-meta"><span>LOW-LEVEL PROGRAMMING</span><span>MARS · MIPS</span></div>
+                            <h3>Retro Pong</h3>
+                            <p>Retro-style Pong game developed in MIPS assembly using direct bitmap display and input handling.</p>
+                            <a class="project-link" href="https://github.com/Raul-BT/mips-retro-pong" target="_blank" rel="noopener noreferrer">View project <span>↗</span></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <p class="section-label">03 / SKILLS</p>
+                <div class="skills-grid">
+                    <div class="skill-group"><h3>Game Development</h3><p>Unity · C# · Phaser 3</p></div>
+                    <div class="skill-group"><h3>Programming</h3><p>C++ · Java · JavaScript · Python · MIPS</p></div>
+                    <div class="skill-group"><h3>Software Engineering</h3><p>Design Patterns · WebSockets · Client-Server Architecture · Git</p></div>
+                    <div class="skill-group"><h3>Artificial Intelligence</h3><p>A* · Q-Learning · Heuristics · Search Algorithms</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <div class="container contact-content">
+                <p class="section-label">04 / CONTACT</p>
+                <h2>Let's connect.</h2>
+                <p>I'm currently building my portfolio and looking for opportunities to keep learning and grow as a game developer.</p>
+                <div class="contact-links">
+                    <a href="https://github.com/Raul-BT" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                    <a href="https://www.linkedin.com/in/raul-bt/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                    <a href="mailto:r.beniteztiburon@gmail.com">Email ↗</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="project-modal" class="project-modal" aria-hidden="true">
+        <div class="modal-backdrop" data-modal-close></div>
+
+        <section class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+            <button class="modal-close"
+                    type="button"
+                    aria-label="Close project details"
+                    data-modal-close>
+                ×
+            </button>
+
+            <div class="modal-header">
+                <p class="section-label" id="modal-category"></p>
+                <h2 id="modal-title"></h2>
+                <p id="modal-description"></p>
+
+                <div class="modal-tech" id="modal-tech"></div>
+            </div>
+
+            <div class="modal-video-wrap">
+                <video id="modal-video" class="modal-video" controls preload="metadata">
+                    <source id="modal-video-source" src="" type="video/mp4">
+                    Your browser does not support HTML5 video.
+                </video>
+
+                <p id="modal-video-note" class="modal-video-note"></p>
+            </div>
+
+            <div class="modal-actions">
+                <a id="modal-github"
+                   class="button button-primary"
+                   href="#"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    View on GitHub ↗
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <span>© 2026 Raul Benítez</span>
+            <span>Game Development · Madrid, Spain</span>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

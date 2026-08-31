@@ -1,0 +1,6 @@
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+*.log
+*.vs
