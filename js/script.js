@@ -61,6 +61,16 @@ const projectData = {
         technologies: ["MIPS", "Assembly", "MARS"],
         video: "assets/projects/mips/demo.mp4",
         github: "https://github.com/Raul-BT/mips-retro-pong"
+    },
+
+    designpatterns: {
+        category: "DESIGN PATTERNS",
+        title: "Paint'Em All",
+        description:
+            "Unity video game focused on the implementation of software design patterns, including State, Observer, Object Pool, Flyweight, and Singleton.",
+        technologies: ["Unity", "C#", "Design Patterns"],
+        video: "assets/projects/designpatterns/demo.mp4",
+        github: "https://github.com/Raul-BT/design-patterns-videogame"
     }
 };
 
